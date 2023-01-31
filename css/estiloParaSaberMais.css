@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fdf4ff;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fdf4ff;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 30px 60px;
+    background-color: #075985;
+    color: #FFF6F6;
+}
+
+nav li,
+a {
+    justify-content: center;
+    display: inline;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 18px 0 0;
+    margin-left: 16px;
+    text-decoration: none;
+    list-style: none;
+    color: #FFF6F6;
+}
+
+nav {
+    margin-left: 30px;
+}
+
+.cabecalho {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    font-size: 14px;
+    color: #075985;
+    width: 100vw;
+    min-height: calc(100vh - 263px);
+}
+
+main h1 {
+    text-align: center;
+    margin: 60px 0 30px 0;
+    font-size: 42px;
+}
+
+footer {
+    background-color: #075985;
+    padding: 60px 15px 90px 15px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    color: #FFF6F6;
+}
+
+footer p {
+    margin: 15px 0 15px 0;
+    color: #EEEEEE;
+}
+
+footer section,
+footer p {
+    text-align: center;
+    width: 300px;
+    font-weight: 200;
+}
+
+footer h3,
+#gmail {
+    color: #81D8F7;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer p {
+    margin: 15px 0 15px 0;
+}
+
+.boxAzul {
+    width: 100%;
+    height: 370px;
+    background-color: #075985;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.caixasDeTexto {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: #FFF6F6;
+    background-color: #0891b2;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.caixasDeTexto p {
+    margin-right: 16px;
+}
+
+.caixasDeTexto2 p {
+    margin-right: 16px;
+}
+
+.caixasDeTexto3 {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixasDeTexto3 p {
+    font-size: 18px;
+}
+
+.caixasDeTexto2 {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: #FFF6F6;
+    background-color: #0891b2;
+    border-radius: 16px 0px 0px 16px;
+}
+
+#intro {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+h4 {
+    font-size: 80px;
+    margin-right: 36px;
+    margin-left: 30px;
+}
+
+h5 {
+    font-size: 40px;
+    margin-right: 36px;
+    margin-left: 36px;
+}
+
+footer section,
+footer p {
+    text-align: center;
+    width: 300px;
+    font-weight: 200;
+}
+
+footer h3,
+#gmail {
+    color: #81D8F7;
+}
+
+footer p {
+    color: #EEEEEE;
+}
+
+.container a {
+    margin: 0px;
+}
+
+.preRodape {
+    margin-bottom: 220px;
+}
