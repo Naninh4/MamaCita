@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #075985;
+    color: white;
+    margin: auto;
+    padding: 5% 0 5% 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+}
+
+.link{
+    margin-bottom: 20px;
+}
+
+#logo{
+    margin-bottom:50px;
+    text-align: center;
+}
+
+h1{
+font-size: 32px;
+text-align: center;
+}
+
+main{
+    display:flex;
+    justify-content:center; 
+    justify-items: center;
+    min-height: 70%;
+    max-height:80%;
+}
+
+a {
+    color: white;
+    width:100%;
+} 
+
+#login {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+#link {
+    margin-bottom: 16px;
+}
+
+form {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+input {
+    display: block;
+    margin: 4px 0 3px 0;
+    width: 400px;
+    background: #0284C7;
+    border-radius: 5.42373px;
+    border: none;
+    width: 380px;
+    height: 58.54px;
+    color: #E1E1E6;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+#email, #senha{
+    width: 400px;
+}
+
+#e-mail{
+    margin-bottom: 10px;
+}
+
+#Checkbox{
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    border-radius: 6px;
+    background-color: #0284C7;
+}
+
+#caixa{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+button {
+    background-color: #E1E1E6;
+    justify-items: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 400px;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0C4A6E;
+}
+
+section{
+    width: 400px;
+}
+
+@media (max-width: 430px){
+    section{
+        width: 80vw;
+        margin: auto;
+    }
+    main{
+        width: 80vw;
+        margin: auto;
+    }
+    form{
+        width: 80vw;
+    }
+    button{
+        width: 80vw;
+    }
+    #email, #senha, #Checkbox, input{
+        width: 80vw;
+    }
+}

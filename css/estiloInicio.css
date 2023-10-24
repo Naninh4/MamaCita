@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background-color: #075985 !important;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fdf4ff;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #075985;
+    color: #FFF6F6;
+}
+
+nav li,
+a {
+    justify-content: center;
+    display: inline;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 16px;
+    text-decoration: none;
+    color: #FFF6F6;
+}
+
+
+
+.cabecalho {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    font-size: 14px;
+    color: #075985;
+    width: 100vw;
+    min-height: calc(100vh - 263px);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #075985;
+    padding: 60px 15px 90px 15px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    color: #FFF6F6;
+}
+
+footer p {
+    margin: 15px 0 15px 0;
+    color: #EEEEEE;
+}
+
+footer section,
+footer p {
+    text-align: center;
+    width: 300px;
+    font-weight: 200;
+}
+
+footer h3,
+#gmail {
+    color: #81D8F7;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer p {
+    margin: 15px 0 15px 0;
+}
+
+.boxAzul {
+    width: 100%;
+    height: 370px;
+    background-color: #075985;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+}
+
+
+.pontilhado {
+    margin-top: -15px;
+    font-size: 50px;
+    color: #0C4A6E;
+}
+
+#TextoBoxAzul {
+    font-size: 18px;
+}
+
+p,
+li {
+    font-size: 14px;
+    margin: 18px 0 18px 0;
+}
+
+li {
+    line-height: 27px;
+}
+
+main h1 {
+    text-align: center;
+    margin: 80px 0 80px 0;
+    font-size: 36px;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.InfoImportancia {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#marginTop {
+    margin-top: 80px;
+}
+
+.caixasDeTexto {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    height: 180px;
+    padding: 0 60px 0 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #0C4A6E;
+    border-radius: 30px;
+}
+
+.texto {
+    margin: 0px 0 0px 0;
+    text-align: justify;
+}
+
+.circle p {
+    font-size: 14px;
+}
+
+.texto p {
+    font-size: 14px;
+    width: 400px;
+}
+
+.download {
+    display: flex;
+    margin-bottom: -50px;
+}
+
+.download img {
+    margin-right: 15px;
+}
+
+
+#center {
+    display: flex;
+    margin: auto;
+}
+
+#boxazul {
+    width: 100%;
+    height: 638px;
+    background-color: #075985;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img1 {
+    margin-right: 100px;
+}
+
+.titulo2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 33px;
+    transition: 0.3s ease;
+    background-color: #0891b2;
+}
+
+.container2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.container3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 220px;
+}
+
+.predondo {
+    margin-top: 110px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    text-align: center;
+}
+
+.topP {
+    font-size: 20px;
+}
+
+.TextoImportancia {
+    margin-right: 20px;
+    width: 480px;
+    height: 250px;
+}
+
+#TextoComoSurgiu h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.TextoComoSurgiu {
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    width: 400px;
+    text-align: justify;
+}
+
+#secao4 {
+    margin: auto;
+}
